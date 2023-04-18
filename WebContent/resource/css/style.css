@@ -1,0 +1,236 @@
+header{
+    background-color: orange;
+}
+.navbar{
+    background-color:orange;
+   
+}
+body
+{
+    font-family: sans-serif;
+}
+
+.carousel-inner img{
+    width:100%;
+}
+
+
+
+.form-control{
+    border-radius: 5px !important;
+}
+
+
+.fa-shopping-basket
+{
+    margin-right:10px;
+}
+.section-main{
+    width:1214px;
+    min-height:3000px;
+   
+    margin: 0 auto;
+    margin-top: 5px;
+
+   
+}
+.side-menu{
+    min-height: 600px;
+    width: 210px;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: rgb(233, 232, 232);
+    position: fixed;
+    
+}
+.side-content{
+    width: 980px;
+    min-height: 1050px;
+    float: right;
+    margin-left: 13px;
+}
+.overlay-right{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.overlay-right .fa{
+    cursor: pointer;
+    background-color: rgb(192, 188, 188);
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.overlay-right .btn-secondary
+{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.product-top:hover .overlay-right
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.product-bottom .fa{
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom:10px ;
+}
+
+.nav-item{
+    border-radius: 15px;
+    background-color: coral;
+    margin-right: 5px;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+    background:#000;
+    color: #fff;
+}
+.footer h1{
+    font-size: 12   px;
+    margin: 25px 0;
+
+}
+.footer p{
+    font-size: 12px;
+    
+}
+.side-menu ul{
+    margin-left: 10px;
+
+}
+.side-menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.side-menu ul li:hover{
+    color:orange;
+}
+.side-menu ul li ul{
+    display: none;
+    z-index: 10;
+    top:60px;
+    left: 15px;
+}
+.side-menu ul li:hover ul{
+    display:block;
+    height:400px;
+    margin-left: 20%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    
+    background: #ececec;
+    box-shadow:1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.fa-angle-right{
+    margin-top:4px;
+    margin-right:8px;
+    float: right;
+}
+
+#g{
+    float: right;
+    background-color: orchid !important;
+}
+#slides{
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 15%;
+    padding: 0 10px;
+  
+}
+.featured-categories{
+    margin: 50px 0;
+}
+.featured-categories img{
+    width:100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.featured-categories img:hover{
+    transform: scale(1.1);
+}
+
+
+/* CSS bên form cập nhật sản phẩm */
+.bentrai{
+    width: 30%;
+    min-height: 650px; 
+    width: 300px;
+    font-size: 14px;
+    float: left; 
+    background-color: orange !important;
+
+}
+.benphai{
+    width: 69%;
+    min-height: 1050px;
+    float: right;
+    margin-left: 10px; 
+    background-color: darkred;
+}
+.title-box{
+    background: orange;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+.title-box h2{
+    font-size: 24px;
+}
+.title-box::after{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+@media only screen and (max-width:980px){
+    .side-menu{
+        width:34%;
+        z-index: 20;
+        top: 133px;
+        position: fixed;
+        font-size: 12px;
+    }
+    .side-menu ul li ul{
+        top: 133px;
+    }
+    .side-menu ul li:hover ul{
+        margin-left: 30%;
+    }
+}
